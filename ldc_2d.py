@@ -84,6 +84,7 @@ class LDCSolver(Solver):
     # self.equations = {}
     # set equations in dict
     # set_equations['continuity'] = rho.diff(t) + (rho*u).diff(x) + (rho*v).diff(y) + (rho*w).diff(z)
+    # reference look NS equation
     self.equations = NavierStokes(nu=0.01, rho=1.0, dim=2,
                                   time=False).make_node()
     # default netowrk 6 hidden layers with 512 nodes
