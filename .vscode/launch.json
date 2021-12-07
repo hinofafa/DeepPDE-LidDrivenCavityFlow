@@ -1,0 +1,20 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "ldc_2d.py",
+            "console": "integratedTerminal",
+            "args": [
+                // solve: train, plot_data: plot domain data, eval: evaluate using last trainpoints
+                "--run_mode", "plot_data"
+                //, "--test_only"
+            ]
+        }
+    ]
+}
