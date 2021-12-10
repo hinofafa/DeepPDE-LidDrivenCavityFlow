@@ -17,6 +17,12 @@ The lid-driven cavity is a well-known benchmark problem for viscous incompressib
 
 <img src="pictures/Methodology.PNG"  align='center'/>
 
-     
+## procedure
+```
+python ldc_2d.py --run_mode=plot_data
+```     
 
- 
+ This should populate the files in thenetwork_checkpoint_ldc_2d/train_domain/data/directory. The different --run_mode available are:
+ - solve: Default run mode. Trains the neural network.
+ - plot_data:  Plots all the domains without training.  Useful for debugging BCs, ICs, visualizing domains,point-clouds, etc. before starting the training.
+ - •eval: Evaluates all the domains using the last saved training checkpoint. Useful for post-processing whereadditional domains can be added after training is complete.
