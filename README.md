@@ -8,8 +8,41 @@ The lid-driven cavity is a well-known benchmark problem for viscous incompressib
 
 <img src="pictures/lidrivencavity.PNG"  align='center'/>
 
+## Modulus 
+NVIDIA Modulus is a neural network framework that blends the power of physics and partial differential equations (PDEs) with AI to build more robust models for better analysis. This framework trains groundbreaking physics-ML models to turbocharge industrial digital twins, climate science, protein engineering and more. This supports:
+- complex geometries
+- various algebra equations
+- specialize Physics Informed Neural Network Architecture
+- parallel gpu computation
+- CUDA/tensor core acceleration
+- simulation visualization on Paraview
 
-## Steps (Modulus)
+For details please check https://developer.nvidia.com/modulus
+
+## Visualization
+- Tensorboard : training records
+- Nvidia Index Paraview: NVIDIA IndeX™ is integrated in ParaView—one of the most popular visualization tools in HPC. This means that users have access to IndeX features by default with the latest ParaView version, so they can experience real-time interactivity with their existing volume visualization workflows. 
+
+For details please check https://www.nvidia.com/en-us/data-center/index-paraview-plugin/
+
+## Installation
+
+### Modulus
+Requirement: 
+- Ubuntu 18.04 or Linux 4.18 kernel
+- NVIDIA GPU based on the following architectures:
+   - Nvidia Ampere GPU Architecture (A100)
+   - Volta (V100, Titan V, Quadro GV100)
+   - Turing (T4, Quadro RTX series)
+   - Pascal (P100, P40, P4, Titan Xp, Titan X)
+- Docker is recommended
+
+
+### Paraview
+- Windows 10
+https://www.paraview.org/download/
+
+## Procedure
 1. - Geometry setup (Constructive Solid Geometry, CSG or STL)
    - Sampling on boundaries and interior regions
 2. Equation setup (TrainDomain)
