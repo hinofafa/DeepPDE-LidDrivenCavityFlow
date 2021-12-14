@@ -8,6 +8,8 @@ The lid-driven cavity is a well-known benchmark problem for viscous incompressib
 
 <img src="pictures/lidrivencavity.PNG"  align='center'/>
 
+We are interested on velocities (x-direction: u, y-direction: v) of fluid when the top wall is moving. 
+
 ## Modulus 
 NVIDIA Modulus is a neural network framework that blends the power of physics and partial differential equations (PDEs) with AI to build more robust models for better analysis. This framework trains groundbreaking physics-ML models to turbocharge industrial digital twins, climate science, protein engineering and more. This supports:
 - complex geometries
@@ -25,9 +27,14 @@ For details please check https://developer.nvidia.com/modulus
 
 For details please check https://www.nvidia.com/en-us/data-center/index-paraview-plugin/
 
-<img src="pictures/continuity-liddrivencavity.PNG"  align='center'/>
-Left:  Continuity as specified in the domain definition. Right:  Computedcontinuity after training
+<img src="pictures/velocity-liddrivencavity.PNG"  align='center'/>
+ Left: Modulus Prediction, Center: True/Validation Data, Right:Difference (Error)
 
+ ## Network Architecture
+Fully Connected Physics Informed Neural Network (default architecture)
+- Raissi, Maziar, Paris Perdikaris, and George Em Karniadakis. "[Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations.](https://www.sciencedirect.com/science/article/pii/S0021999118307125)" arXiv preprint arXiv:1711.10561 (2017).
+- Raissi, Maziar, Paris Perdikaris, and George Em Karniadakis. "[Physics Informed Deep Learning (Part II): Data-driven Discovery of Nonlinear Partial Differential Equations.](https://arxiv.org/abs/1711.10566)" arXiv preprint arXiv:1711.10566 (2017).
+<img src="pictures/PINN.PNG"  align='center'/>
 
 ## Installation of Modulus
 Download Modulus Installation Guide and Container for Linux platform from https://developer.nvidia.com/modulus-downloads
