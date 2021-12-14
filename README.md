@@ -21,9 +21,13 @@ For details please check https://developer.nvidia.com/modulus
 
 ## Visualization
 - Tensorboard : training records
-- Nvidia Index Paraview: NVIDIA IndeX™ is integrated in ParaView—one of the most popular visualization tools in HPC. This means that users have access to IndeX features by default with the latest ParaView version, so they can experience real-time interactivity with their existing volume visualization workflows. 
+- Nvidia Index Paraview: ParaView is an open-source, multi-platform data analysis and visualization application. ParaView users can quickly build visualizations to analyze their data using qualitative and quantitative techniques. NVIDIA IndeX™ is integrated in ParaView—one of the most popular visualization tools in High Performance Computation. 
 
 For details please check https://www.nvidia.com/en-us/data-center/index-paraview-plugin/
+
+<img src="pictures/continuity-liddrivencavity.PNG"  align='center'/>
+Left:  Continuity as specified in the domain definition. Right:  Computedcontinuity after training
+
 
 ## Installation of Modulus
 Download Modulus Installation Guide and Container for Linux platform from https://developer.nvidia.com/modulus-downloads
