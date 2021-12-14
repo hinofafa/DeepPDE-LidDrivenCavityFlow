@@ -34,7 +34,7 @@ For details please check https://www.nvidia.com/en-us/data-center/index-paraview
 Fully Connected Physics Informed Neural Network (default architecture)
 - Raissi, Maziar, Paris Perdikaris, and George Em Karniadakis. "[Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations.](https://www.sciencedirect.com/science/article/pii/S0021999118307125)" arXiv preprint arXiv:1711.10561 (2017).
 - Raissi, Maziar, Paris Perdikaris, and George Em Karniadakis. "[Physics Informed Deep Learning (Part II): Data-driven Discovery of Nonlinear Partial Differential Equations.](https://arxiv.org/abs/1711.10566)" arXiv preprint arXiv:1711.10566 (2017).
-<img src="pictures/PINN.PNG"  align='center'/>
+<img src="pictures/PINN.PNG"  align='center' height='300px'/>
 
 ## Installation of Modulus
 Download Modulus Installation Guide and Container for Linux platform from https://developer.nvidia.com/modulus-downloads
