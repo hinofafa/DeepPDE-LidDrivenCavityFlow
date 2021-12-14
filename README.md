@@ -25,7 +25,8 @@ For details please check https://developer.nvidia.com/modulus
 
 For details please check https://www.nvidia.com/en-us/data-center/index-paraview-plugin/
 
-## Installation
+## Installation of Modulus
+Download Modulus Installation Guide and Container for Linux platform from https://developer.nvidia.com/modulus-downloads
 
 ### Modulus
 Requirement: 
